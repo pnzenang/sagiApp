@@ -50,7 +50,7 @@ const Wrapper = styled.nav`
     }
     .btn {
       margin-top: 1rem;
-      padding: 0.55rem;
+      /* padding: 0.55rem; */
     }
   }
 `;

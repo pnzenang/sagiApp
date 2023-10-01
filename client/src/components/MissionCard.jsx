@@ -58,6 +58,7 @@ const MissionCard = () => {
   );
 };
 const Wrapper = styled.div`
+  margin-top: 1rem;
   h2 {
     color: var(--primary-500);
     font-weight: 700;

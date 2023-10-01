@@ -24,7 +24,7 @@ const Wrapper = styled.section`
   }
   .btn {
     margin-top: 1rem;
-    padding: 0.65rem;
+    /* padding: 0.65rem; */
   }
   .member-btn {
     color: var(--primary-500);

@@ -197,7 +197,6 @@ const Wrapper = styled.main`
   background: var(--background-secondary-color);
   padding: 1rem 2rem 2rem;
   line-height: 2.5rem;
-  /* text-align: justify; */
 
   main {
     min-height: 75vh;

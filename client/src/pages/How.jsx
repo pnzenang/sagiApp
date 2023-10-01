@@ -62,7 +62,7 @@ const Wrapper = styled.section`
   .card-info {
     color: var(--text-color);
     line-height: 2rem;
-    font-style: pacifico;
+    /* font-style: pacifico; */
   }
 
   hr {

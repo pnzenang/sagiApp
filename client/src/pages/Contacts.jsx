@@ -140,13 +140,11 @@ const Wrapper = styled.section`
     text-align: center;
     line-height: 1.5;
     font-weight: 700;
-    /* color: white; */
-    /* text-shadow: 1px 1px 1px black, 0 0 5px var(--primary-500), 0 0 5px; */
   }
   .btn {
     width: 100%;
     margin-top: 1rem;
-    padding: 0.65rem;
+    /* padding: 0.65rem; */
   }
   .member-btn {
     color: var(--primary-500);
@@ -168,7 +166,7 @@ const Wrapper = styled.section`
     justify-content: space-between;
     align-items: center;
     padding: 0 2rem;
-    padding-bottom: 2.9rem;
+    padding-bottom: 2.67rem;
     text-transform: lowercase;
   }
   .icon {

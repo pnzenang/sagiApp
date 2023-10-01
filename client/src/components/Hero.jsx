@@ -34,7 +34,7 @@ const Wrapper = styled.section`
   min-height: 90vh;
   display: grid;
   place-items: center;
-  margin-bottom: 0.5rem;
+  margin-bottom: 2rem;
   text-align: left;
 
   .img-container {
@@ -56,6 +56,7 @@ const Wrapper = styled.section`
     height: calc(100vh - 5rem);
     grid-template-columns: 1fr 1fr;
     gap: 8rem;
+    margin-bottom: 3rem;
     h1 {
       margin-bottom: 2rem;
       font-weight: bolder;
