@@ -6,13 +6,13 @@ export const sendResetPasswordEmail = async ({
   origin,
 }) => {
   const resetURL = `${origin}/reset-password?token=${token}&email=${email}`;
-  const message = `<p>Please reset password by clicking on the following link : 
-  <a href="${resetURL}">Reset Password</a></p>`;
+  const message = `<h3>Please reset password by clicking on the following link : 
+  <a href="${resetURL}">Reset Password</a></h3>`;
 
   return sendEmail({
     to: email,
-    from: "info@active-solidarity.com",
+    from: "info@mysagi.org",
     subject: "Reset Password",
-    html: `<h4>Hello, ${name}</h4>${message}`,
+    html: `<h3>Hello, ${name}</h3>${message}`,
   });
 };
