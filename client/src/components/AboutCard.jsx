@@ -210,9 +210,8 @@ const Wrapper = styled.main`
   .container {
     background: var(--clr-white);
     border-radius: var(--radius);
-    padding: 1rem 2rem;
+    padding: 1rem 1rem;
     width: 100%;
-
     display: grid;
     gap: 1rem 1rem;
     box-shadow: var(--light-shadow);
