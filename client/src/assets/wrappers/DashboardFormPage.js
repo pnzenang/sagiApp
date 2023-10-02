@@ -5,6 +5,7 @@ const Wrapper = styled.section`
   width: 100%;
   background: var(--background-secondary-color);
   padding: 3rem 2rem 4rem;
+
   .form-title {
     margin-bottom: 2rem;
   }
@@ -25,7 +26,7 @@ const Wrapper = styled.section`
   }
   .react-datepicker-wrapper {
     width: 100%;
-    font-size: 14px;
+    font-size: 18px;
     font-family: sans-serif;
     text-align: center;
   }
@@ -42,6 +43,7 @@ const Wrapper = styled.section`
     margin-top: 1rem;
     display: grid;
     place-items: center;
+    /* padding: 1rem 1rem; */
   }
   @media (min-width: 992px) {
     .form-center {

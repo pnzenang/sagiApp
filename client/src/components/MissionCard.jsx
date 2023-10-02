@@ -1,7 +1,5 @@
 import Card from "react-bootstrap/Card";
 import CardGroup from "react-bootstrap/CardGroup";
-import Col from "react-bootstrap/Col";
-import Row from "react-bootstrap/Row";
 import main1 from "../assets/images/open.png";
 import main2 from "../assets/images/onBudget.png";
 import main3 from "../assets/images/speed.png";

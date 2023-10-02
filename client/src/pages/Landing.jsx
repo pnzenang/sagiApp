@@ -14,7 +14,7 @@ const Landing = () => {
       <div className="container page">
         <div className="info">
           <h1>
-            SAGI <span>:Active</span> solidarity
+            SAGI: <span>Active</span> solidarity
           </h1>
           <p>
             Helps lessen the financial burden of any family whose fallen loved
